@@ -2,8 +2,8 @@
 
 <!-- Hero Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Welcome+to+NETIX.AI+OSS;Building+the+Future%2C+Openly.;AI+%7C+Cloud+%7C+Kubernetes+%7C+Data">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=0066CC&center=true&vCenter=true&width=600&lines=Welcome+to+NETIX.AI+OSS;Building+the+Future%2C+Openly.;AI+%7C+Cloud+%7C+Kubernetes+%7C+Data" alt="NETIX.AI OSS">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=00D4FF&center=true&vCenter=true&width=760&lines=Welcome+to+NETIX.AI+OSS;AI+%2B+IoT+for+Smart+Buildings+%26+Cities;Connected+Operations+for+Sustainable+Growth;Open+Building+Blocks+for+the+NETIX+Ecosystem">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=0066CC&center=true&vCenter=true&width=760&lines=Welcome+to+NETIX.AI+OSS;AI+%2B+IoT+for+Smart+Buildings+%26+Cities;Connected+Operations+for+Sustainable+Growth;Open+Building+Blocks+for+the+NETIX+Ecosystem" alt="NETIX.AI OSS">
 </picture>
 
 <br/>
@@ -18,11 +18,13 @@
 
 ## 🚀 About NETIX.AI
 
-**NETIX.AI** is a technology company dedicated to advancing **AI**, **cloud infrastructure**, and **data engineering** — and we believe the best software is built in the open.
+**NETIX.AI** builds **AI- and IoT-powered solutions for smart buildings, districts, and cities** — helping operators modernize infrastructure, connect systems, and make better decisions with real-time operational data.
 
-This organization hosts our open-source projects: the tools, SDKs, and utilities we use every day to power our products, now freely available to the community. We welcome contributors, adopters, and collaborators from around the world.
+Our mission is to make advanced automation more **accessible, integrated, and sustainable** through open, vendor-neutral technology. From centralized command-and-control platforms to analytics, connectivity, and brownfield modernization, NETIX.AI focuses on elevating operations with practical, data-driven innovation.
 
-> _"Software is better when it's shared."_
+This organization contains the **open-source building blocks** that support that mission: SDKs, integrations, utilities, and platform components that help developers extend the NETIX ecosystem and build on top of modern operational technology stacks.
+
+> _Elevate operations with intelligent, connected, and sustainable solutions._
 
 ---
 
@@ -30,37 +32,50 @@ This organization hosts our open-source projects: the tools, SDKs, and utilities
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [**envoy-pyauth**](https://github.com/NETIX-AI-OSS/envoy-pyauth) | Envoy-compatible Python authentication service for backend apps | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**k8s-utils-py**](https://github.com/NETIX-AI-OSS/k8s-utils-py) | Kubernetes API Python wrapper and utility SDK | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**data-service-sdk**](https://github.com/NETIX-AI-OSS/data-service-sdk) | SDK for interacting with NETIX data services | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**netix-grafana**](https://github.com/NETIX-AI-OSS/netix-grafana) | Grafana fork with NETIX theme and custom add-ons | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
-| [**valve-control-c-sample**](https://github.com/NETIX-AI-OSS/valve-control-c-sample) | Valve control reference implementation in C | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
+| [**envoy-pyauth**](https://github.com/NETIX-AI-OSS/envoy-pyauth) | Authentication component for backend services and connected platform integrations | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
+| [**k8s-utils-py**](https://github.com/NETIX-AI-OSS/k8s-utils-py) | Python utilities for operating Kubernetes-based services in the NETIX platform ecosystem | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
+| [**data-service-sdk**](https://github.com/NETIX-AI-OSS/data-service-sdk) | SDK for integrating applications and workflows with NETIX data services | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
+| [**netix-grafana**](https://github.com/NETIX-AI-OSS/netix-grafana) | Customized observability experience for dashboards, insights, and operational visibility | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
+| [**valve-control-c-sample**](https://github.com/NETIX-AI-OSS/valve-control-c-sample) | Low-level sample for device and control-system integration at the edge | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black) |
 
 ---
 
-## 🛠️ Technology Focus
+## 🌍 What We Build For
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Envoy](https://img.shields.io/badge/Envoy-AC6199?style=for-the-badge&logo=envoy-proxy&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Smart Buildings](https://img.shields.io/badge/Smart%20Buildings-0A84FF?style=for-the-badge)
+![Smart Cities](https://img.shields.io/badge/Smart%20Cities-0F9D58?style=for-the-badge)
+![Operational Intelligence](https://img.shields.io/badge/Operational%20Intelligence-7B61FF?style=for-the-badge)
+![Sustainability](https://img.shields.io/badge/Sustainability-2E7D32?style=for-the-badge)
+![AI + IoT](https://img.shields.io/badge/AI%20%2B%20IoT-FF6F00?style=for-the-badge)
+![Open Integration](https://img.shields.io/badge/Open%20Integration-455A64?style=for-the-badge)
 
 </div>
 
 ---
 
+## 🛠️ Open Tech in the NETIX Ecosystem
+
+Our open-source work supports the broader NETIX.AI platform vision:
+
+- **Connected operations** — secure services, APIs, and integrations for distributed systems
+- **Observability and control** — dashboards, monitoring, and operational insight
+- **Platform engineering** — Kubernetes utilities and backend tooling for scalable deployments
+- **Edge and device integration** — practical examples for interfacing with operational technology
+
+These repositories complement NETIX.AI's commercial solutions for intelligent command-and-control, analytics, lifecycle optimization, and modernization of existing infrastructure.
+
+---
+
 ## 🤝 Contributing
 
-We love contributions! Every project in this organization is open to:
+We welcome contributors who care about:
 
-- 🐛 **Bug reports** — Help us catch what we miss
-- 💡 **Feature requests** — Tell us what you need
-- 🔧 **Pull requests** — Your code is welcome here
-- 📖 **Documentation** — Clear docs help everyone
+- 🏢 **Smart infrastructure** — better tooling for buildings, facilities, and connected environments
+- 🔌 **Open integrations** — practical software that connects systems and data sources
+- 📈 **Operational insight** — observability, analytics, and platform reliability
+- 📖 **Developer experience** — documentation, SDKs, and reusable utilities
 
 Please read the [contributing guidelines](../CONTRIBUTING.md) and our [code of conduct](../CODE_OF_CONDUCT.md) before getting started.
 
