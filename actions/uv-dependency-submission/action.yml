@@ -1,0 +1,48 @@
+name: UV dependency snapshot
+description: Generate and optionally publish committed UV lock dependencies at the exact live default HEAD
+inputs:
+  token:
+    description: Repository token; contents write is required only when submit is true
+    required: false
+    default: ${{ github.token }}
+  runtime-groups:
+    description: Comma-separated dependency groups shipped in production (for example edge,ml)
+    required: false
+    default: ''
+  submit:
+    description: Explicitly publish the generated snapshot after live branch and SHA guards
+    required: false
+    default: 'false'
+outputs:
+  snapshot-path:
+    description: Generated JSON payload
+    value: ${{ steps.snapshot.outputs.path }}
+  receipt-path:
+    description: API receipt and commit/manifest hashes when published
+    value: ${{ steps.snapshot.outputs.receipt }}
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+      with:
+        python-version: '3.13'
+    - id: snapshot
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.token }}
+        SNAPSHOT_SCRIPT: ${{ github.action_path }}/snapshot.py
+        SNAPSHOT_PATH: ${{ runner.temp }}/netix-uv-dependency-snapshot.json
+        RUNTIME_GROUPS: ${{ inputs.runtime-groups }}
+        SUBMIT: ${{ inputs.submit }}
+        RECEIPT_PATH: ${{ runner.temp }}/netix-uv-dependency-receipt.json
+      run: |
+        rm -f -- "$SNAPSHOT_PATH" "$RECEIPT_PATH"
+        args=()
+        case "$SUBMIT" in
+          true) args+=(--submit --receipt "$RECEIPT_PATH") ;;
+          false) ;;
+          *) echo 'submit must be true or false' >&2; exit 1 ;;
+        esac
+        python -I "$SNAPSHOT_SCRIPT" --output "$SNAPSHOT_PATH" --runtime-groups "$RUNTIME_GROUPS" "${args[@]}"
+        echo "path=$SNAPSHOT_PATH" >> "$GITHUB_OUTPUT"
+        echo "receipt=$RECEIPT_PATH" >> "$GITHUB_OUTPUT"
