@@ -1,4 +1,4 @@
-# .github — NETIX.AI OSS Default Community Files
+# .github: NETIX.AI OSS Default Community Files
 
 This repository contains the **default community health files** and the **organization profile landing page** for [NETIX-AI-OSS](https://github.com/NETIX-AI-OSS), the open-source home for NETIX.AI's ecosystem around smart buildings, connected operations, and data-driven infrastructure.
 

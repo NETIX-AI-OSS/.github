@@ -1,6 +1,6 @@
 # Contributing to NETIX.AI Open Source
 
-Thank you for your interest in contributing to our projects! We welcome contributions of all kinds — from bug fixes and new features to documentation improvements and test coverage.
+Thank you for your interest in contributing to our projects! We welcome contributions of all kinds, from bug fixes and new features to documentation improvements and test coverage.
 
 ## Getting Started
 
